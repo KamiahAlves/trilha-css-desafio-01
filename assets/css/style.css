@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  border: 0;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.938);
+    font-family: "Raleway", sans-serif;
+}
+.banner {
+  background-color: black;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(49, 168, 221, 0.2),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  padding-top: 60px;
+  border-bottom: 1px solid #33a8db80;
+}
+.banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+.logo{
+    margin: auto;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+  color: #1472b7;
+  font-weight: bold;
+
+
+}
+p{
+    color: white;
+    font-size: 20px;
+    
+}
+button{
+    color: #31a8dd;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: #31a8dd solid 2px;
+    background-color: transparent;
+    padding: 19px 91px;
+    
+}
+.course-content{
+    
+}
